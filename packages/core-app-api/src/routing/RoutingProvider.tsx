@@ -26,6 +26,8 @@ import {
 } from '@backstage/version-bridge';
 import { RouteResolver } from './RouteResolver';
 import { BackstageRouteObject } from './types';
+// eslint-disable-next-line @backstage/no-relative-monorepo-imports
+import { RouteTracker } from '../../../core-app-api/src/routing/RouteTracker';
 
 const RoutingContext = createVersionedContext<{ 1: RouteResolver }>(
   'routing-context',
@@ -59,6 +61,7 @@ export const RoutingProvider = ({
   const versionedValue = createVersionedValueMap({ 1: resolver });
   return (
     <RoutingContext.Provider value={versionedValue}>
+      <RouteTracker routeObjects={routeObjects} />
       {children}
     </RoutingContext.Provider>
   );
