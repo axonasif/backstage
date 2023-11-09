@@ -1,0 +1,5 @@
+image: gitpod/workspace-full
+
+tasks:
+  - name: Hi
+    command: echo Hello World
