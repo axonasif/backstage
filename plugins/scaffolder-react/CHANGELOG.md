@@ -1,5 +1,15 @@
 # @backstage/plugin-scaffolder-react
 
+## 1.6.0-next.3
+
+### Patch Changes
+
+- [#20901](https://github.com/backstage/backstage/pull/20901) [`dda56ae265`](https://github.com/backstage/backstage/commit/dda56ae26563eb0bfca8c9de9f9007bd2f2e8732) Thanks [@acierto](https://github.com/acierto)! - Preserve step's time execution for a non-running task.
+
+- Updated dependencies
+  - @backstage/core-components@0.13.8-next.3
+  - @backstage/plugin-catalog-react@1.9.0-next.3
+
 ## 1.6.0-next.2
 
 ### Patch Changes

@@ -1,5 +1,17 @@
 # @backstage/plugin-catalog-import
 
+## 0.10.2-next.3
+
+### Patch Changes
+
+- [#21025](https://github.com/backstage/backstage/pull/21025) [`dee1f39fcc`](https://github.com/backstage/backstage/commit/dee1f39fccb87f03a29c13f9f0933e6184b81f73) Thanks [@camilaibs](https://github.com/camilaibs)! - Fix missing children key warning on the default catalog import page.
+
+- Updated dependencies
+  - @backstage/core-components@0.13.8-next.3
+  - @backstage/frontend-plugin-api@0.3.0-next.3
+  - @backstage/integration-react@1.1.21-next.1
+  - @backstage/plugin-catalog-react@1.9.0-next.3
+
 ## 0.10.2-next.2
 
 ### Patch Changes

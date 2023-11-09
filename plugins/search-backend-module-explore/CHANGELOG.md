@@ -1,5 +1,15 @@
 # @backstage/plugin-search-backend-module-explore
 
+## 0.1.11-next.3
+
+### Patch Changes
+
+- Updated dependencies
+  - @backstage/backend-common@0.19.9-next.3
+  - @backstage/backend-tasks@0.5.12-next.3
+  - @backstage/plugin-search-backend-node@1.2.11-next.3
+  - @backstage/backend-plugin-api@0.6.7-next.3
+
 ## 0.1.11-next.2
 
 ### Patch Changes

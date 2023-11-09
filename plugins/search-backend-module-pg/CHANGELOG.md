@@ -1,5 +1,16 @@
 # @backstage/plugin-search-backend-module-pg
 
+## 0.5.16-next.3
+
+### Patch Changes
+
+- [#20936](https://github.com/backstage/backstage/pull/20936) [`2b4cd1ccae`](https://github.com/backstage/backstage/commit/2b4cd1ccae8ae82ee06126c2b0744c7a204a92e6) Thanks [@mariia-maksimova](https://github.com/mariia-maksimova)! - Optimize outdated documents deletion logic in PgSearchEngine DatabaseDocumentStore which significantly reduces cost on large tables
+
+- Updated dependencies
+  - @backstage/backend-common@0.19.9-next.3
+  - @backstage/plugin-search-backend-node@1.2.11-next.3
+  - @backstage/backend-plugin-api@0.6.7-next.3
+
 ## 0.5.16-next.2
 
 ### Patch Changes

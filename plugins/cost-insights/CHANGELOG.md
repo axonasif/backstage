@@ -1,5 +1,15 @@
 # @backstage/plugin-cost-insights
 
+## 0.12.15-next.3
+
+### Patch Changes
+
+- [#21105](https://github.com/backstage/backstage/pull/21105) [`d49cffaf6a`](https://github.com/backstage/backstage/commit/d49cffaf6a7d884c107ba3ed437921892d56ec87) Thanks [@renovate](https://github.com/apps/renovate)! - Updated dependency `@types/pluralize` to `^0.0.33`.
+
+- Updated dependencies
+  - @backstage/core-components@0.13.8-next.3
+  - @backstage/plugin-catalog-react@1.9.0-next.3
+
 ## 0.12.15-next.2
 
 ### Patch Changes

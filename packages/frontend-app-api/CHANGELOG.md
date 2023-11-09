@@ -1,5 +1,14 @@
 # @backstage/frontend-app-api
 
+## 0.3.0-next.3
+
+### Patch Changes
+
+- Updated dependencies
+  - @backstage/core-components@0.13.8-next.3
+  - @backstage/frontend-plugin-api@0.3.0-next.3
+  - @backstage/plugin-graphiql@0.3.0-next.3
+
 ## 0.3.0-next.2
 
 ### Patch Changes

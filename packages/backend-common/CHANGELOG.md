@@ -1,5 +1,16 @@
 # @backstage/backend-common
 
+## 0.19.9-next.3
+
+### Patch Changes
+
+- [#21038](https://github.com/backstage/backstage/pull/21038) [`aa13482090`](https://github.com/backstage/backstage/commit/aa13482090def161429202b55c653c86d7339937) - Limit the database creation concurrency to one, defensively
+
+- Updated dependencies
+  - @backstage/backend-app-api@0.5.8-next.3
+  - @backstage/backend-plugin-api@0.6.7-next.3
+  - @backstage/config-loader@1.5.3-next.0
+
 ## 0.19.9-next.2
 
 ### Patch Changes
