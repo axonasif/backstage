@@ -14,19 +14,18 @@
  * limitations under the License.
  */
 
-import { Config } from '@backstage/config';
-import { JsonObject } from '@backstage/types';
-import { InputError } from '@backstage/errors';
-import knexFactory, { Knex } from 'knex';
-import limiterFactory from 'p-limit';
-import { mergeDatabaseConfig } from './config';
-import { DatabaseConnector } from './types';
-
-import { mysqlConnector, pgConnector, sqlite3Connector } from './connectors';
 import {
   LifecycleService,
   PluginMetadataService,
 } from '@backstage/backend-plugin-api';
+import { Config } from '@backstage/config';
+import { InputError } from '@backstage/errors';
+import { JsonObject } from '@backstage/types';
+import knexFactory, { Knex } from 'knex';
+import limiterFactory from 'p-limit';
+import { mysqlConnector, pgConnector, sqlite3Connector } from './connectors';
+import { DatabaseConnector } from './types';
+import { mergeDatabaseConfig } from './util';
 
 type DatabaseClient =
   | 'pg'

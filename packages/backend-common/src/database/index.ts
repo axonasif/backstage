@@ -14,7 +14,10 @@
  * limitations under the License.
  */
 
-export * from './DatabaseManager';
+export {
+  type DatabaseManagerOptions,
+  DatabaseManager,
+} from './DatabaseManager';
 
 /*
  * Undocumented API surface from connection is being reduced for future deprecation.

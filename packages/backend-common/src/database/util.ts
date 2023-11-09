@@ -14,6 +14,8 @@
  * limitations under the License.
  */
 
+import { merge } from 'lodash';
+
 /**
  * Tries to deduce whether a thrown error is a database conflict.
  *
@@ -32,4 +34,15 @@ export function isDatabaseConflictError(e: unknown) {
       /unique constraint/.test(message) ||
       /Duplicate entry/.test(message)) // MySQL uniqueness error msg
   );
+}
+
+/**
+ * Merges database objects together
+ *
+ * @public
+ * @param config - The base config. The input is not modified
+ * @param overrides - Any additional overrides
+ */
+export function mergeDatabaseConfig(config: any, ...overrides: any[]) {
+  return merge({}, config, ...overrides);
 }

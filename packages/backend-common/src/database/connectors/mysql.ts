@@ -14,13 +14,12 @@
  * limitations under the License.
  */
 
-import knexFactory, { Knex } from 'knex';
-import yn from 'yn';
-
 import { Config } from '@backstage/config';
 import { InputError } from '@backstage/errors';
-import { mergeDatabaseConfig } from '../config';
+import knexFactory, { Knex } from 'knex';
+import yn from 'yn';
 import { DatabaseConnector } from '../types';
+import { mergeDatabaseConfig } from '../util';
 import defaultNameOverride from './defaultNameOverride';
 
 /**

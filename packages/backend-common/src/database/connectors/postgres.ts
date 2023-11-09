@@ -14,15 +14,14 @@
  * limitations under the License.
  */
 
-import knexFactory, { Knex } from 'knex';
-
 import { Config } from '@backstage/config';
 import { ForwardedError } from '@backstage/errors';
-import { mergeDatabaseConfig } from '../config';
+import knexFactory, { Knex } from 'knex';
+import { Client } from 'pg';
 import { DatabaseConnector } from '../types';
+import { mergeDatabaseConfig } from '../util';
 import defaultNameOverride from './defaultNameOverride';
 import defaultSchemaOverride from './defaultSchemaOverride';
-import { Client } from 'pg';
 
 /**
  * Creates a knex postgres database connection
@@ -47,6 +46,7 @@ export function createPgDatabaseClient(
       },
     );
   }
+
   return database;
 }
 
